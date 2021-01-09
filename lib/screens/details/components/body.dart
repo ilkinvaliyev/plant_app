@@ -12,9 +12,9 @@ class Body extends StatelessWidget {
         children: <Widget>[
           ImageAndIconsCard(size: size),
           TitleAndPrice(
-            title: "Angelica",
-            country: "Russia",
-            price: 400,
+            title: "IPhone 12",
+            country: "Apple",
+            price: 699,
           ),
           SizedBox(height: kDefaultPadding,),
           Row(

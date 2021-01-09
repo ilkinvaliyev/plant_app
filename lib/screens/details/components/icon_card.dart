@@ -30,7 +30,7 @@ class IconCard extends StatelessWidget {
             BoxShadow(
                 offset: Offset(-15, 15), blurRadius: 20, color: Colors.white)
           ]),
-      child: SvgPicture.asset("assets/icons/$icon"),
+      child: Image.asset("assets/icons/$icon"),
     );
   }
 }

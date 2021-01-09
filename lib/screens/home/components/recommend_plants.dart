@@ -15,28 +15,28 @@ class RecommendPlants extends StatelessWidget {
       child: Row(
         children: [
           RecomendPlantCard(
-            title: "SAMANTHA",
-            image: "image_1.png",
-            country: "RUSSIA",
-            price: 440,
+            title: "IPhone 12",
+            image: "iphone12_3.jpg",
+            country: "APPLE",
+            price: 799,
             press: (){
               Navigator.push(context, MaterialPageRoute(builder: (context) => DetailsScreen()));
             },
           ),
           RecomendPlantCard(
-            title: "SAMANTHA",
-            image: "image_2.png",
-            country: "RUSSIA",
-            price: 440,
+            title: "Galaxy A71",
+            image: "samsung.jpg",
+            country: "Samsung",
+            price: 590,
             press: (){
               Navigator.of(context).push(MaterialPageRoute(builder: (context)=>DetailsScreen()));
             },
           ),
           RecomendPlantCard(
-            title: "SAMANTHA",
-            image: "image_3.png",
-            country: "RUSSIA",
-            price: 440,
+            title: "Xiaomi",
+            image: "xiaomi.jpg",
+            country: "MI",
+            price: 459,
             press: (){
               Navigator.of(context).push(MaterialPageRoute(builder: (context)=>DetailsScreen()));
             },

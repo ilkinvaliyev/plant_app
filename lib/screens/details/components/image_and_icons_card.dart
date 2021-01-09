@@ -19,7 +19,7 @@ class ImageAndIconsCard extends StatelessWidget {
         bottom: kDefaultPadding * 3,
       ),
       child: SizedBox(
-        height: size.height * 0.8,
+        height: size.height * 0.7,
         child: Row(
           children: <Widget>[
             Expanded(
@@ -35,11 +35,9 @@ class ImageAndIconsCard extends StatelessWidget {
                           Navigator.pop(context);
                         }),
                   ),
-                  Spacer(),
-                  IconCard(icon: "sun.svg",),
-                  IconCard(icon: "icon_2.svg",),
-                  IconCard(icon: "icon_3.svg",),
-                  IconCard(icon: "icon_4.svg",),
+                  IconCard(icon: "sun.png",),
+                  IconCard(icon: "camerai.png",),
+                  IconCard(icon: "yuztanima.png",),
                 ],
               ),
             ),
@@ -58,9 +56,9 @@ class ImageAndIconsCard extends StatelessWidget {
                         color: kPrimaryColor.withOpacity(0.29))
                   ],
                   image: DecorationImage(
-                      alignment: Alignment.centerLeft,
+                      alignment: Alignment.topLeft,
                       fit: BoxFit.cover,
-                      image: AssetImage("assets/images/img.png"))),
+                      image: AssetImage("assets/images/iphone12_1.png"))),
             )
           ],
         ),
