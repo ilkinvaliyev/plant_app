@@ -20,7 +20,7 @@ class RecommendPlants extends StatelessWidget {
             country: "RUSSIA",
             price: 440,
             press: (){
-              Navigator.of(context).push(MaterialPageRoute(builder: (context)=>DetailsScreen()));
+              Navigator.push(context, MaterialPageRoute(builder: (context) => DetailsScreen()));
             },
           ),
           RecomendPlantCard(
